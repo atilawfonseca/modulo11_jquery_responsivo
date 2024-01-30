@@ -1,0 +1,146 @@
+.aba-menu-lateral{
+    background-color: rgb(41, 48, 77);
+    right: 0px;
+    width: 90%;
+    top: 54px;
+    position: fixed;
+    z-index: 2;
+    transition: 1s;
+    
+}
+/**/
+.encolher-aba-laterail{
+    right: -90%;
+    
+}
+
+/*carrinho de compras*/
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.minhas-compras{
+    border-bottom: 1px solid gray;
+}
+
+.aba-menu-lateral ul li {
+    list-style: none;
+    color: white;
+    
+}
+.aba-menu-lateral ul li a{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    margin-top: 2em;
+    
+}
+.aba-menu-lateral ul li button {
+    width: 100%;
+    background-color: transparent;
+    padding: 1em 2em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    
+}
+.aba-menu-lateral ul li button:active{
+    background-color: rgb(47, 47, 121);
+}
+
+/*sobre nossa loja*/
+
+.sobre-nossa-loja {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobre-nossa-loja h2 {
+    border-top: 3px solid black;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+.sobre-nossa-loja img {
+    max-width: 600px;
+    width: 100%;   
+}
+.sobre-nossa-loja p {
+    margin-top: 1em;
+}
+
+/*PRODUTOS*/
+.add-carrinho {
+    align-self: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 1em 1em;
+    font-weight: bolder;
+    color: rgb(41, 48, 77);
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.produtos {
+    background-color: rgb(41, 48, 77);
+    margin-top: 1em;
+    padding-top: 1em;
+    color: white;
+}
+.produtos section {
+    border-bottom: 2px solid white;
+    padding-top: 1em;
+}
+.produtos h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    
+}
+.produtos h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.produtos p {
+    font-weight: 200;
+    margin-bottom: 1em;
+}
+.produtos ul li {
+    max-width: 600px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid white;
+    
+}
+
+.produtos h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.produtos-camisas img, .produtos-bermudas img, .produtos-calcados img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 400px;
+    
+}
+
+.carrossel-produtos{
+    max-width: 450px;
+    width: 90%;
+    align-self: center;
+}
+

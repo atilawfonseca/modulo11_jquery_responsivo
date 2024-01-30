@@ -1,0 +1,29 @@
+@media screen and (min-width:1023px) {
+    aside {
+        display: none;
+    }
+    .menu-buguer-btn {
+        display: none;
+    }
+    .desktop-menu {
+        display: flex;
+        align-items: center;
+    }
+    .desktop-menu ul li {
+        list-style: none;
+        display: inline;
+        margin-right: 40px;
+    }
+    .desktop-menu ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+    .desktop-menu ul li a:hover{
+        cursor: pointer;
+        color: wheat;
+    }
+    .minhas-compras_desktop ul li a div{
+        display: flex;
+    }
+}

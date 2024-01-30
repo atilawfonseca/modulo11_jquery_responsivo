@@ -1,0 +1,19 @@
+@import url("mobile/header.css");
+@import url('mobile/main.css');
+@import url('tablet/main.css');
+@import url('desktop/header.css');
+@import url('desktop/main.css');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    
+}
+.container {
+    width: 90%;
+    margin: 0px auto;
+    
+}
+
+

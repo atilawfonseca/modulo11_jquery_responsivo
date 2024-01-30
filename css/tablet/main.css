@@ -1,0 +1,19 @@
+@media screen and (min-width:641px) and (max-width:1023px) {
+    .produtos-camisas > div , .produtos-bermudas > div, .produtos-calcados > div{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .produtos-camisas div ul, .produtos-bermudas div ul, .produtos-calcados div ul{
+        max-width: 45%;
+    }
+    .produtos-camisas div ul .carrossel-produtos, .produtos-bermudas div ul .carrossel-produtos, .produtos-calcados div ul .carrossel-produtos{
+        width: 75%;
+    }
+    .produtos-camisas div ul .carrossel-produtos img,  .produtos-bermudas div ul .carrossel-produtos img, .produtos-calcados div ul .carrossel-produtos img{
+        width: 100%;
+        max-height: 180px;
+    }
+
+}
